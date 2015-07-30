@@ -93,6 +93,10 @@ class MoneyTest extends \PHPUnit_Framework_TestCase
      */
     public function testObjectCanBeConstructedFromStringValueAndCurrencyString()
     {
+    	$this->assertEquals(
+    			0,
+    			1
+    	);
         $this->assertEquals(
             new Money(1234, new Currency('EUR')),
             Money::fromString('12.34', 'EUR')
