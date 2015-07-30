@@ -84,7 +84,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
      */
     public function testCanBeCastToString(Currency $c)
     {
-        $this->assertEquals('EU', (string)$c);
+        $this->assertEquals('EUR', (string)$c);
     }
 
     /**
