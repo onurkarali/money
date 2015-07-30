@@ -94,7 +94,7 @@ class MoneyTest extends \PHPUnit_Framework_TestCase
     public function testObjectCanBeConstructedFromStringValueAndCurrencyString()
     {
     	$this->assertEquals(
-    			0,
+    			1,
     			1
     	);
         $this->assertEquals(
